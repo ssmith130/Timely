@@ -2,11 +2,20 @@
 *{
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Sans', sans-serif;
-    color: aliceblue;
+    color: #000000;
 }
 
 a{
-    color: blue;
+    color: #1e90ff;
+}
+
+.colorWhite{
+    color: #f1f1f1;
+}
+
+
+.colorBlack{
+    color: #000000;
 }
 
 
@@ -33,7 +42,7 @@ input[type=text], input[type=password] {
 /* style set for all buttons */
 button {
     background-color: #FFCC00;
-    color: white;
+    color: #FFFFFF;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -46,8 +55,8 @@ button:hover {
     opacity: 0.8;
 }
 
-/* unique cancel btn */
-.cancelbtn {    
+/* create acc btn */
+.createAccbtn {    
     width: auto;
     padding: 10px 18px;
     background-color: #000000;

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Create an Account</title>
+    
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="createAcc.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Poppins" rel="stylesheet">
+  </head>
+  <body>
+  <form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1 class="colorWhite">Sign Up</h1>
+    <img src="towson.png" id ="TUimage">
+    <p class="colorWhite">Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b class="colorWhite">Email:</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="uName"><b class="colorWhite">First Name:</b></label>
+    <input type="text" placeholder="User Name" name="uName" required>
+    
+           <!-- keep first name and last name on same line for more ergonomic look (add later)-->
+           
+            <label for="uLname"><b class="colorWhite">Last Name:</b></label>
+    <input type="text" placeholder="User Last Name" name="uLname" required>
+
+    <label for="psw"><b class="colorWhite">Password:</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b class="colorWhite">Re-enter Password:</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"><b class="colorWhite"> Remember me</b>
+    </label>
+    
+    <p class="colorWhite">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
+
+    <div class="clearfix">
+      
+      <button type="submit" class="signupbtn"><b class = "colorBlack">Sign Up</b></button>
+    </div>
+  </div>
+</form>
+
+  </body>            <!-- add function later-->
+</html>
